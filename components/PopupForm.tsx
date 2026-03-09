@@ -183,7 +183,7 @@ const PopupForm: React.FC = () => {
         source: "english-site",
       };
 
-      const response = await fetch('https://n8n.iterioai.com/webhook/iterio-form-submitted', {
+      const response = await fetch('/api/submit-form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
