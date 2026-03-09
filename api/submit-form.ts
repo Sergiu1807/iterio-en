@@ -34,7 +34,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const AIRTABLE_BASE_ID = process.env.AIRTABLE_BASE_ID;
   const AIRTABLE_TABLE_ID = process.env.AIRTABLE_TABLE_ID;
   const RESEND_API_KEY = process.env.RESEND_API_KEY;
-  const NOTIFICATION_EMAIL = process.env.NOTIFICATION_EMAIL || 'sergiu@iterio.ro';
+  const NOTIFICATION_EMAIL = process.env.NOTIFICATION_EMAIL || 'sergiu18castrase@gmail.com';
 
   try {
     // 1. Save to Airtable
